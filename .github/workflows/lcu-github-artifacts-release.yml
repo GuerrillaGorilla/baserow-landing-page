@@ -1,10 +1,11 @@
-name: GuerrillaGorilla/baserow-landing-page
+name: GuerrillaGorilla/landing-page-baserow-launchpad
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions: write-all
 
